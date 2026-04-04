@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 from langchain.tools import tool
 from typing import Dict, Any

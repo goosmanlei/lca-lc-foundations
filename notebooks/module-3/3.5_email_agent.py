@@ -8,7 +8,7 @@ from langchain.agents.middleware import wrap_model_call, dynamic_prompt, HumanIn
 from langchain.agents.middleware import ModelRequest, ModelResponse
 from typing import Callable
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 @dataclass
